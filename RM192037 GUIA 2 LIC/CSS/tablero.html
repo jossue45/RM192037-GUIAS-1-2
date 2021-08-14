@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablero de Damas</title>
+        <link rel="stylesheet" href="css/estilo_tablero.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: steelblue;
+                color: #EEE;
+                font-family: sans-serif;
+                text-align: center;
+            }
+            #tablero{
+                background-color: white;
+                height: 400px;
+                width: 400px;
+                margin: auto;
+            }
+            #tablero p{
+                background-color: black;
+                color: white;
+                float: left;
+                font-size: 36px;
+                height: 50px;
+                width: 50px;
+                vertical-align: center;
+            }
+            #tablero .filaImpar p:nth-child(2n+1){
+                background-color: white;
+            }
+            #tablero .filaPar p:nth-child(2n){
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tablero de damas</h1>
+        <div id="tablero">
+            <div class="filaImpar">
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+            </div>
+            <div class="filaPar">
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+            </div>
+            <div class="filaImpar">
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+                <p></p>
+                <p>&#9823</p>
+            </div>
+            <div class="filaPar">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="filaImpar">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="filaPar">
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+            </div>
+            <div class="filaImpar">
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+            </div>
+            <div class="filaPar">
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+                <p>&#9820</p>
+                <p></p>
+            </div>
+        </div>
+    </body>
+</html>
